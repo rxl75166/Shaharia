@@ -2,7 +2,7 @@
 
 What does this tool do?
 
-This tool is a tool i personally use for Recon, and flying over easy vulnerabilities. Just by entering the website name, this will first scrape every subdomain using several tools then sort those from dead to alive. It will perform a full fleged Automated Scan using Nuclei that will show vulnerabilities except informational.
+This tool is a tool i personally use for Recon Subdomain. Just by entering the website name, this will first scrape every subdomain using several tools then sort those from dead to alive.
 
 The third part consist of a process I call Gauing, which will use a faster version of GAU from every subdomain scraped by subdomainer, it will then save it and find all the live working Urls, I have tweaked everything after lot of trial and error. This goes hand in hand with a article where i explain the further process of how this will lead to discovery of several bugs.
 
