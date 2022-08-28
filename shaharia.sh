@@ -15,5 +15,5 @@ else
 	./subdomainer -t $web -f true
 	cd $web
 	cd $(date +"%m-%d-%Y")
-	cat all.txt | gauplus -subs -b png,jpg,gif,jpeg,swf,woff,gif,svg -o allUrls.txt ; cat allUrls.txt | httpx -sc 200,403 -o liveallurls.txt
+	cat all.txt | gauplus -subs -b png,jpg,gif,jpeg,swf,woff,gif,svg -o allUrls.txt ; cat allUrls.txt | httpx -sc -o liveallurls.txt
 fi
