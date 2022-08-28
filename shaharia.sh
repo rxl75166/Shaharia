@@ -10,7 +10,7 @@ web=$1
 echo $OF
 if [ $web == "-h" ]
 then
-	echo "Usage: ./chandrahasa website.com"
+	echo "Usage: ./shaharia website.com"
 else
 	./subdomainer -t $web -f true
 	cd $web
